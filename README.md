@@ -31,7 +31,9 @@ $ chmod +x setup.sh
 ```
 
 - Run `setup.sh` to install fonts and bar -
-
+```
+$ ./setup.sh
+```
 
 - These theme is now installed. 
 
