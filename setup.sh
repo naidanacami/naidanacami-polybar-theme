@@ -28,6 +28,7 @@ install_themes() {
 		{ mkdir -p "$PDIR"; cp -rf $DIR/polybar/* "$PDIR"; }	
 	fi
 	if [[ -f "$PDIR/launch.sh" ]]; then
+		find $PDIR/scripts -type f -iname "*.sh" -exec chmod +x {} \;
 		echo -e "[*] Successfully Installed.\n"
 		exit 0
 	else
@@ -40,9 +41,6 @@ install_themes() {
 main() {
 	install_fonts
 	install_themes
-	sleep 2
-	find $PDIR/scripts -type f -iname "*.sh" -exec chmod +x {} \;
-	echo -e "Complete!"
 }
 
 main
