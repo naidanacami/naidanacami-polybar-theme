@@ -20,12 +20,12 @@ Follow the steps below to install these themes on your system.
 
 - First, Clone this repository -
 ```
-$ git clone https://github.com/naidanacami/poybar-theme.git
+$ git clone https://github.com/naidanacami/naidanacami-polybar-theme.git
 ```
 
 - Cd to cloned directory and make setup.sh executable -
 ```
-$ cd polybar-themes
+$ cd naidanacami-polybar-theme
 $ chmod +x setup.sh
 ```
 
