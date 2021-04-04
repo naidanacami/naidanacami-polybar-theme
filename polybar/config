@@ -55,7 +55,8 @@ alternate = #7cb342
 ;border-top-color = ${color.primary}
 modules-left = i3
 modules-center =
-modules-right = sep updates sep trash sep redshift sep pulseaudio sep network sep date sep sysmenu
+;modules-right = sep updates sep trash sep redshift sep pulseaudio sep network sep date sep sysmenu
+modules-right = sep updates sep redshift sep pulseaudio sep network sep date sep sysmenu
 
 
 ;monitor = ${env:MONITOR:HDMI-1}
@@ -347,12 +348,12 @@ format-disconnected-prefix-background = ${color.background}
 type = custom/script
 tail = true
 
-exec = ls /home/nicho/.local/share/Trash/files | wc -l
+exec = ls ~/.local/share/Trash/files | wc -l
 interval = 120
 label =  %output%
 format-foreground = ${color.foreground}
 format-background = ${color.background}
 
-click-left = alacritty -e /bin/bash -c "read -p \"Press Enter to run 'rm -rf /home/nicho/.local/share/Trash/files'\" && rm -rfv /home/nicho/.local/share/Trash/files/*"
+click-left = alacritty -e /bin/bash -c "read -p \"Press Enter to run 'rm -rf ~/.local/share/Trash/files'\" && rm -rfv ~/.local/share/Trash/files/*"
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
