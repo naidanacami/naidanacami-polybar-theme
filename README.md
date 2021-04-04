@@ -12,6 +12,7 @@ Install following programs on your system before you use these themes.
 - **`Polybar`** : The bar itself
 - **`Rofi`** : App launcher and style menus
 - **`redshift`** : Screen tempurature adjustment
+- **`figlet`** : ascii banner
 
 
 ### Installation
