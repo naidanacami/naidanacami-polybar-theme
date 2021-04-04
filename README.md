@@ -1,6 +1,7 @@
 <!-- Polybar Themes-->
 
 My first polybar theme with a Nord (https://www.nordtheme.com/) colour scheme
+
 Multiple modules, rofi code, and inspiration taken from https://github.com/adi1090x/polybar-themes
 
 
