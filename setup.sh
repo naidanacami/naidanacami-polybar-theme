@@ -40,6 +40,9 @@ install_themes() {
 main() {
 	install_fonts
 	install_themes
+	sleep 2
+	find $PDIR/scripts -type f -iname "*.sh" -exec chmod +x {} \;
+	echo -e "Complete!"
 }
 
 main
